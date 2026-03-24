@@ -1,0 +1,115 @@
+text,tag
+I cannot login to my account,account_access
+Password reset not working,account_access
+Account locked after multiple attempts,account_access
+Unable to verify my email,account_access
+Login page not loading,account_access
+Cannot change my password,account_access
+Two factor code not working,account_access
+Forgot password help,account_access
+Account suspended without reason,account_access
+Cannot access dashboard,account_access
+
+Payment failed during checkout,billing
+Money deducted but order not placed,billing
+Invoice not generated,billing
+Charged twice for same order,billing
+Refund not processed,billing
+Payment declined,billing
+Billing address not accepted,billing
+Subscription charged again,billing
+Cannot update payment method,billing
+Price showing wrong,billing
+
+App crashes when opening,technical_issue
+Website not loading,technical_issue
+Error while uploading file,technical_issue
+Server error 500,technical_issue
+Image not displaying,technical_issue
+Slow loading problem,technical_issue
+Button not working,technical_issue
+Download failed,technical_issue
+Notification not working,technical_issue
+Search not working,technical_issue
+
+I want refund for my order,refund
+Cancel my order,refund
+Return request created,refund
+Refund still pending,refund
+Wrong item delivered,refund
+Product damaged need refund,refund
+Order cancelled need refund,refund
+Refund amount incorrect,refund
+Refund not received yet,refund
+How to get refund,refund
+
+How to change email,general_query
+Where can I see my orders,general_query
+How to contact support,general_query
+Need help using app,general_query
+How to update profile,general_query
+Where is settings page,general_query
+How to track order,general_query
+How to delete account,general_query
+How to enable notifications,general_query
+How to change username,general_query
+
+Cannot login after update,account_access
+Reset link expired,account_access
+Account verification failed,account_access
+Login error again,account_access
+Unable to sign in,account_access
+
+Payment not reflecting,billing
+Extra charges applied,billing
+Card declined again,billing
+Subscription issue,billing
+Billing problem,billing
+
+App freezing,technical_issue
+Crash after login,technical_issue
+Error message showing,technical_issue
+Page stuck loading,technical_issue
+Upload not working,technical_issue
+
+Refund delayed,refund
+Need refund quickly,refund
+Refund request failed,refund
+Refund not approved,refund
+Refund status unknown,refund
+
+How to use feature,general_query
+Help needed,general_query
+Guide for beginners,general_query
+Where is help section,general_query
+Information about account,general_query
+
+Cannot access profile,account_access
+Login blocked,account_access
+Password incorrect always,account_access
+Verification code late,account_access
+Account problem,account_access
+
+Payment error,billing
+Wrong bill,billing
+Billing help,billing
+Payment issue,billing
+Card problem,billing
+
+Technical bug,technical_issue
+System error,technical_issue
+Feature not working,technical_issue
+App problem,technical_issue
+Website bug,technical_issue
+
+Refund help,refund
+Refund problem,refund
+Money back request,refund
+Return and refund,refund
+Refund support,refund
+
+General question,general_query
+Need information,general_query
+Help with settings,general_query
+App guide,general_query
+Support needed,general_query
