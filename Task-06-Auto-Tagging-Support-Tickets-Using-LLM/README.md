@@ -51,14 +51,6 @@ Zero-shot already performs very well for Top-3 predictions.
 Few-shot examples did not significantly change Top-3 accuracy for this dataset.
 This demonstrates that LLM can effectively suggest relevant tags for support tickets, even with minimal examples.
 
-## Usage
-
-Load the dataset (tickets.csv).
-Run the zero-shot and few-shot classification cells.
-The top3 column in the output dataframe contains the top 3 predicted tags for each ticket.
-df["top3"] = df["text"].apply(get_top3)  # Zero-shot top 3
-df["few_top3"] = df["text"].apply(few_shot)  # Few-shot top 3
-
 ## Skills Gained
 Prompt engineering for LLMs
 Zero-shot and few-shot text classification
