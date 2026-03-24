@@ -28,13 +28,13 @@ general_query
 
 ## Methodology
 
-# 1. Zero-shot Classification
+### 1. Zero-shot Classification
 
 Used HuggingFace facebook/bart-large-mnli model.
 Provided only the labels as possible categories.
 Model predicts probability for each label and returns top 3 tags.
 
-# 2. Few-shot Classification
+### 2. Few-shot Classification
 
 Added few example tickets in the prompt for context.
 The model uses these examples to better understand ticket-label patterns.
@@ -45,13 +45,13 @@ Method	Top-1 Accuracy	Top-3 Accuracy
 Zero-shot	0.49	0.93
 Few-shot	0.49	0.93
 
-# Observations:
+### Observations:
 
 Zero-shot already performs very well for Top-3 predictions.
 Few-shot examples did not significantly change Top-3 accuracy for this dataset.
 This demonstrates that LLM can effectively suggest relevant tags for support tickets, even with minimal examples.
 
-### Usage
+## Usage
 
 Load the dataset (tickets.csv).
 Run the zero-shot and few-shot classification cells.
@@ -59,11 +59,11 @@ The top3 column in the output dataframe contains the top 3 predicted tags for ea
 df["top3"] = df["text"].apply(get_top3)  # Zero-shot top 3
 df["few_top3"] = df["text"].apply(few_shot)  # Few-shot top 3
 
-### Skills Gained
+## Skills Gained
 Prompt engineering for LLMs
 Zero-shot and few-shot text classification
 Multi-class prediction and ranking
 Evaluating LLM performance using Top-1 and Top-3 accuracy
 
-# Conclusion:
+### conclusion:
 The project demonstrates that LLMs can automatically tag support tickets with high reliability. Even in a small dataset, top-3 suggestions include the correct category 93% of the time, making this approach practical for real-world customer support workflows.
